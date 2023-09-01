@@ -1,3 +1,4 @@
+*:focus {
   outline: none; }
 
 html, body, .app {
@@ -17,10 +18,11 @@ body {
   flex-direction: column; }
 
 button {
-  background: rgba(0, 0, 0, 0.06);
-  border: 2px solid black;
+  background: none;
+  border: none;
   color: rgba(0, 0, 0, 0.87);
   cursor: pointer;
+  margin: 0;
   padding: 12px;
   transition: background 0.3s, color 0.3s;
   user-select: none; }
@@ -29,7 +31,6 @@ button {
     color: rgba(0, 0, 0, 0.54); }
   button i.material-icons {
     vertical-align: middle; }
-}
 
 .toolbar {
   align-items: center;
@@ -78,9 +79,9 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-
+  transform: translate(-50%, -50%);
+}
 
 #button-container button {
   margin-right: 10px;
-
 }
