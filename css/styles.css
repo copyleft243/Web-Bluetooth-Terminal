@@ -79,9 +79,20 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 #button-container button {
   margin-right: 10px;
+  background: rgba(0, 0, 0, 0.06);
+  border: 2px solid black;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+  padding: 12px;
+  transition: background 0.3s, color 0.3s;
+  user-select: none; }
+  button:active {
+    background: rgba(0, 0, 0, 0.12);
+    color: rgba(0, 0, 0, 0.54); }
+  button i.material-icons {
+    vertical-align: middle; }
 }
