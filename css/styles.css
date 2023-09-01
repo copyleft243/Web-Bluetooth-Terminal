@@ -75,3 +75,13 @@ button {
       color: rgba(0, 0, 0, 0.54); }
   .send-form button {
     flex-shrink: 0; }
+#button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#button-container button {
+  margin-right: 10px;
+}
